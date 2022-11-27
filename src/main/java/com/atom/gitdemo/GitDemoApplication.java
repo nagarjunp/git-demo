@@ -10,7 +10,10 @@ public class GitDemoApplication {
 			System.out.println("Inside if looop");
 		}
 	}
-
+	public void addMethod()
+	{
+		System.out.println("Added method");
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(GitDemoApplication.class, args);
 	}
