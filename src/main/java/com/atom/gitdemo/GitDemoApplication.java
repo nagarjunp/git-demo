@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class GitDemoApplication {
 	public void addData(String data) {
-		System.out.println("Data : "+data);
-		if (data.equals("Snake")) {
+		if (data.equals(Constant.DATA_TYPE)) {
 			System.out.println("Inside if looop");
 		}
 	}
