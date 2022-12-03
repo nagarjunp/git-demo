@@ -14,6 +14,10 @@ public class GitDemoApplication {
 	{
 		System.out.println("Added method");
 	}
+	public void addMethod2()
+	{
+		System.out.println("Added method2");
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(GitDemoApplication.class, args);
 	}
